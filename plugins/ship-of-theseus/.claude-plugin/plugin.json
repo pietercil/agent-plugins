@@ -1,0 +1,11 @@
+{
+  "name": "ship-of-theseus",
+  "version": "0.1.0",
+  "description": "Keeps a project's documentation true as the code changes: distills each Change into the Living Docs, flags Doc Drift, and maintains release notes.",
+  "author": {
+    "name": "pietercil"
+  },
+  "repository": "https://github.com/pietercil/agent-plugins",
+  "keywords": ["documentation", "docs", "changelog", "adr"],
+  "dependencies": ["mattpocock-skills"]
+}
