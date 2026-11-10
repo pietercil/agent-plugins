@@ -1,0 +1,25 @@
+{
+  "name": "agent-plugins",
+  "owner": {
+    "name": "pietercil"
+  },
+  "description": "Claude Code plugins for software teams.",
+  "plugins": [
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills",
+        "ref": "v1.3.1"
+      },
+      "description": "Matt Pocock's agent skills for real engineering (grilling, spec/ticket flows, TDD, code review, domain modelling and more). Pinned; required by ship-of-theseus.",
+      "category": "engineering"
+    },
+    {
+      "name": "ship-of-theseus",
+      "source": "./plugins/ship-of-theseus",
+      "description": "Keeps a project's documentation true as the code changes: distills each Change into the Living Docs, flags Doc Drift, and maintains release notes.",
+      "category": "documentation"
+    }
+  ]
+}
